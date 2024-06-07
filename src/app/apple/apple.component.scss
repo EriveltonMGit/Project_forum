@@ -1,0 +1,477 @@
+#nav-bar {
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    background-color: var(--color-roxo);
+    z-index: 10;
+    box-shadow: 1px 1px 1rem black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+// rodape-1
+.rodape-1 {
+
+    width: 10%;
+    position: absolute;
+    left: -4%;
+    bottom: 0;
+    height: 8vh;
+    background-color: var(--color-roxo);
+    top: 10vh;
+    border-bottom: 3px solid var(--color-white);
+    // border-right: 2px solid var(--color-white);
+
+
+    -webkit-transform: skew(-30deg);
+    /* Chrome, Opera */
+    -ms-transform: skew(-60deg);
+    /* IE */
+    transform: skew(-60deg);
+    /* Padrão */
+}
+
+// .rodape-2
+.rodape-2 {
+    width: 10%;
+    position: absolute;
+    right: -4%;
+    bottom: 0;
+    height: 8vh;
+    background-color: var(--color-roxo);
+    top: 10vh;
+    border-bottom: 3px solid var(--color-white);
+    // border-left: 2px solid var(--color-white);
+
+
+    -webkit-transform: skew(30deg);
+    /* Chrome, Opera */
+    -ms-transform: skew(60deg);
+    /* IE */
+    transform: skew(60deg);
+    /* Padrão */
+}
+
+
+// OPÇÕES HELP
+
+#opcoes-help {
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+// SPAN
+#opcoes-help span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 10%;
+    height: 30%;
+    margin-bottom: 0px;
+    font-family: Osvald;
+    padding: 1rem;
+}
+
+
+// RELOGIO
+#time {
+    border: 2px solid var(--color-white);
+    border-radius: 50px;
+
+}
+
+//IMG LOGO
+
+#opcoes-help a {
+    width: 7%;
+
+    margin-bottom: 0px;
+
+}
+
+#opcoes-help a img {
+    width: 100%;
+
+    margin-bottom: 0px;
+}
+
+#opcoes-help ul {
+
+
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-bottom: 0px;
+}
+
+#opcoes-help ul li {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100%;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 100%;
+    transition: 1s ease-in-out;
+}
+
+#opcoes-help ul li a {
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Osvald;
+    color: var(--color-white);
+    font-size: 1rem;
+    transition: 0.5s ease-in-out;
+    -webkit-transform: skew(-10deg);
+    transform: skew(-10deg);
+
+
+}
+
+#opcoes-help ul li:hover {
+    transition: 0.3s linear;
+    background: #212529;
+
+
+
+}
+
+#opcoes-help ul li:nth-child(1):hover {
+    background: #212529;
+    // -webkit-transform: skew(-10deg);
+    // transform: skew(-10deg);
+
+    color: var(--color-green);
+    box-shadow: 1px 1px 1rem black;
+    border-bottom: 5px solid var(--color-white);
+
+
+
+
+}
+
+#opcoes-help ul li:nth-child(2):hover {
+    background: #212529;
+    // -webkit-transform: skew(-10deg);
+    // transform: skew(-10deg);
+
+    color: var(--color-green);
+    box-shadow: 1px 1px 1rem black;
+    border-bottom: 5px solid var(--color-white);
+
+}
+
+#opcoes-help ul li:nth-child(3) {
+    background: #212529;
+    -webkit-transform: skew(-10deg);
+    transform: skew(-10deg);
+    scale: 1.1;
+    color: var(--color-textos);
+    box-shadow: 1px 1px 1rem black;
+    z-index: 1;
+
+}
+
+#opcoes-help ul li:nth-child(3) {
+    border-bottom: 5px solid var(--color-white);
+
+}
+
+#opcoes-help ul li:nth-child(4):hover {
+    background: #212529;
+    // -webkit-transform: skew(-10deg);
+    // transform: skew(-10deg);
+
+    color: var(--color-green);
+    box-shadow: 1px 1px 1rem black;
+    border-bottom: 5px solid var(--color-white);
+
+}
+
+#opcoes-help ul li:nth-child(5):hover {
+    background: #212529;
+    // -webkit-transform: skew(-10deg);
+    // transform: skew(-10deg);
+
+    color: var(--color-green);
+    box-shadow: 1px 1px 1rem black;
+    border-bottom: 5px solid var(--color-white);
+
+}
+
+
+
+// #opcoes-help div
+#opcoes-help div {
+    width: 18%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 10;
+}
+
+#opcoes-help div button {
+    border-radius: 5px;
+    width: 40%;
+    transition: 0.5s ease-in-out;
+    transition: 0.5s;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.1rem;
+
+}
+
+#opcoes-help div button:hover {
+    background-color: var(--color-green);
+    box-shadow: -2px 2px 1rem white;
+    scale: 1.1;
+
+}
+
+#opcoes-help div button a {
+    text-decoration: none;
+    color: black;
+    font-family: Osvald;
+    font-size: 1vw;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// opcoes-menu{
+#opcoes-menu {
+
+    width: 100%;
+    height: 10vh;
+    top: 8vh;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(4px);
+    z-index: 7;
+    padding: 0px;
+
+
+}
+
+// MENU
+
+#opcoes-menu ul {
+
+    width: 100%;
+    height: 100%;
+    left: 0;
+    margin-bottom: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid var(--color-white);
+
+}
+
+
+
+#opcoes-menu ul li {
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+
+}
+
+
+#opcoes-menu ul li a {
+    text-decoration: none;
+    border-right: 1.5px solid rgba(255, 255, 255, 0.178);
+    width: 100%;
+    height: 80%;
+    font-weight: 500;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Osvald;
+    color: var(--color-white);
+    font-size: 1rem;
+    transition: 0.5s ease-in-out;
+
+}
+
+#opcoes-menu ul li a:hover {
+
+    transition: 0.5s linear;
+    box-shadow: inset 0 -100px 0 var(--color-white);
+    color: #000;
+
+}
+
+
+
+
+
+// _____________container________________
+#container {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--color-roxo);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// FOOTER
+.footer {
+    // background-image: linear-gradient(45deg, black 10%, #2f1c6a 50%, #212121 60%);
+    color: white;
+    padding: 40px 0;
+    width: 100%;
+    margin: 0 auto;
+    background-color: var(--color-roxo);
+
+
+
+}
+
+.footer a {
+    color: #ffc107;
+    text-decoration: none;
+
+    width: 100%;
+}
+
+.footer a:hover {
+    color: #ffc107;
+
+}
+
+.footer .social-icons {
+    font-size: 24px;
+    margin: 0 15px;
+    color: #ffc107;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.footer .social-icons i {
+    transition: 0.5s ease-in-out;
+
+}
+
+.footer .social-icons a i:hover {
+    color: #ffffff;
+    scale: 1.2;
+}
+
+.footer .copy {
+    border-top: 1px solid #495057;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.footer .icon-text {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.footer .icon-text:hover {
+    background-color: #ffc107;
+
+}
+
+.footer .icon-text:hover i {
+    color: #000;
+}
+
+.footer .icon-text i {
+    margin-right: 10px;
+    transition: 0.5s ease-in-out;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+// text-uppercase
+.text-uppercase {
+
+    font-family: Osvald;
+    font-size: 2rem;
+    height: 30%;
+}
+
+// list-unstyled
+.list-unstyled {
+
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2vh;
+    font-family: Poppins-Light;
+
+
+}

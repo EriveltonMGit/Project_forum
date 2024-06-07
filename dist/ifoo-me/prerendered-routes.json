@@ -1,0 +1,10 @@
+{
+  "routes": [
+    "/android",
+    "/apple",
+    "/cadastro",
+    "/home",
+    "/login",
+    "/windows"
+  ]
+}

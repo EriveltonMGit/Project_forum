@@ -1,0 +1,105 @@
+#form {
+    width: 40%;
+    height: 60vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.342);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.conteiner {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+   
+}
+
+.conteiner .form-group {
+
+    width: 80%;
+}
+// emailHELP{
+    #emailHelp{
+        color: #28da11;
+    }
+
+// MENSAGEM
+#mensagem{
+    width: 40%;
+    height: 60vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.342);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 5;
+    background-color: rgba(0, 0, 0, 0.74);
+    padding: 1rem;
+ 
+}
+#mensagem div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    z-index: 10;
+    backdrop-filter: blur(20px);
+
+}
+#mensagem span{
+    color: red;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5vw;
+   
+}
+#mensagem  p{
+   color: #000;
+   font-size: 2vw;
+   color: white;
+
+}
+// #mensagem button{
+#mensagem button{
+    width: 10vw;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 1vh;
+    margin-right: 1vw;
+    z-index: 2;
+} 
+// contador
+#contador{
+    color: white;
+}
+
+// btn-primary
+.btn-primary{
+    background-color: aqua;
+    color: #000;
+    transition: 0.5s;
+    width: 10vw;
+    margin-top: 1vh;
+}
+
+.btn-primary:hover{
+   box-shadow: -6px 6px 1rem rgba(0, 0, 0, 0.432);
+}

@@ -1,0 +1,37 @@
+<section id="form">
+    <h1>Login</h1>
+    <div class="conteiner">
+     <div class="form-group">
+      <label for="exampleInputEmail1">Endereço de email</label>
+      <input type="email" class="form-control"  id="email" aria-describedby="emailHelp" placeholder="Seu email" required>
+      <small id="emailHelp">Nunca vamos compartilhar seu email, com ninguém.</small>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Senha</label>
+      <input type="password" class="form-control" id="password" placeholder="Senha" required>
+      <span id="senhaHelp"></span>
+    </div>
+    
+    <button type="submit" class="btn btn-primary" onclick="login()">Enviar</button> 
+   
+    </div>
+    <p>Se não tem uma conta, <a href="/cadastro">cadastre-se</a> agora!</p>
+  </section>
+ 
+
+
+     <section id="mensagem">
+      
+      <div>
+      <button onclick="fecharMensagem()" >x</button>
+         <span>Alert!</span>
+      <p>
+        <b>Leia com atenção:</b> Por motivos de segurança não informe nenhum dado pessoal, software de teste, estamos ultilizando o localsotrage do navegador para salvar os dados! Obrigado :)
+      </p>
+      <h4 id="contador">00:00</h4>
+      </div>
+
+      
+     
+     </section>
+ 

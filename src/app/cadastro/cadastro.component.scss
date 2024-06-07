@@ -1,0 +1,33 @@
+
+
+
+#fromCadastro{
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.342);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+// form-row
+.form-row{
+   
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+// form-group
+.form-group {
+
+    width: 80%;
+}
