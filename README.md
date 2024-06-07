@@ -4,7 +4,7 @@
 Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
 
 
-&nbsp;<a href="https://ifoome.netlify.app/">
+&nbsp;<a href="https://forumdenoticias.netlify.app/home">
 Link para o projeto 
 </a>&nbsp;
 
