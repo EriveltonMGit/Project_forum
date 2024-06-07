@@ -1,4 +1,6 @@
-# Site Fórum de notícias
+# Site Fórum de notícias.
+
+**Atenção!** site em construção.
 ![Descrição da Imagem](https://github.com/EriveltonMGit/Project_forum/raw/main/src/assets/img/img-1.png)
 
 Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
